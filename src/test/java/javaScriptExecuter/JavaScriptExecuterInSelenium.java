@@ -7,6 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import net.bytebuddy.asm.Advice.AllArguments;
 
 public class JavaScriptExecuterInSelenium {
 
@@ -20,7 +21,7 @@ public class JavaScriptExecuterInSelenium {
 		//js.executeScript("document.getElementById('uid').value='jsmith'");
 		//js.executeScript("document.getElementsByName('passw')[0].value='demo1234'");
 		
-		Thread.sleep(3000);
+		//Thread.sleep(3000);
 		//js.executeScript("document.getElementsByTagName('input')[4].click()");
 //		js.executeScript("document.getElementsByName('btnSubmit')[0].style.color='red'");
 //    	js.executeScript("document.getElementsByName('btnSubmit')[0].style.border='13px Solid red'");
@@ -34,7 +35,10 @@ public class JavaScriptExecuterInSelenium {
     	js.executeScript("arguments[0].value='demo1234'",pass);
     	
     	WebElement login=driver.findElement(By.name("btnSubmit"));
-    	js.executeScript("arguments[0].click()", login);
+    	js.executeScript("arguments[2].click()",uname,pass,login);
+    	
+    	 
+    	
     	
     	
     	Thread.sleep(8000);
