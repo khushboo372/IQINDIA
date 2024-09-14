@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="5" total="41" passed="28" failed="5" skipped="3">
+<testng-results ignored="5" total="40" passed="27" failed="5" skipped="3">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-14T12:57:57 IST" name="Surefire suite" finished-at="2024-09-14T12:59:25 IST" duration-ms="88130">
+  <suite started-at="2024-09-14T13:26:01 IST" name="Surefire suite" finished-at="2024-09-14T13:27:10 IST" duration-ms="68283">
     <groups>
     </groups>
-    <test started-at="2024-09-14T12:57:57 IST" name="Surefire test" finished-at="2024-09-14T12:59:25 IST" duration-ms="88130">
+    <test started-at="2024-09-14T13:26:01 IST" name="Surefire test" finished-at="2024-09-14T13:27:10 IST" duration-ms="68283">
       <class name="ignoreInTestng.IgnoreInTest">
-        <test-method signature="TC003()[pri:0, instance:ignoreInTestng.IgnoreInTest@355ce81c]" started-at="2024-09-14T12:58:52 IST" name="TC003" finished-at="2024-09-14T12:58:52 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC003 -->
-        <test-method signature="TC001()[pri:0, instance:ignoreInTestng.IgnoreInTest@355ce81c]" started-at="2024-09-14T12:58:52 IST" name="TC001" finished-at="2024-09-14T12:58:52 IST" duration-ms="0" status="PASS">
+        <test-method signature="TC001()[pri:0, instance:ignoreInTestng.IgnoreInTest@355ce81c]" started-at="2024-09-14T13:26:40 IST" name="TC001" finished-at="2024-09-14T13:26:40 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC001 -->
-        <test-method signature="TC004()[pri:0, instance:ignoreInTestng.IgnoreInTest@355ce81c]" started-at="2024-09-14T12:58:52 IST" name="TC004" finished-at="2024-09-14T12:58:52 IST" duration-ms="0" status="PASS">
+        <test-method signature="TC004()[pri:0, instance:ignoreInTestng.IgnoreInTest@355ce81c]" started-at="2024-09-14T13:26:40 IST" name="TC004" finished-at="2024-09-14T13:26:40 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC004 -->
-      </class> <!-- ignoreInTestng.IgnoreInTest -->
-      <class name="listenerInTestng.TestClass">
-        <test-method signature="Test2()[pri:2, instance:listenerInTestng.TestClass@3738449f]" started-at="2024-09-14T12:59:17 IST" name="Test2" finished-at="2024-09-14T12:59:17 IST" duration-ms="2" status="PASS">
+        <test-method signature="TC003()[pri:0, instance:ignoreInTestng.IgnoreInTest@355ce81c]" started-at="2024-09-14T13:26:40 IST" name="TC003" finished-at="2024-09-14T13:26:40 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test2 -->
-        <test-method signature="Test1()[pri:1, instance:listenerInTestng.TestClass@3738449f]" started-at="2024-09-14T12:59:17 IST" name="Test1" finished-at="2024-09-14T12:59:17 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- TC003 -->
+      </class> <!-- ignoreInTestng.IgnoreInTest -->
+      <class name="listenerInTestng.TestClass">
+        <test-method signature="Test1()[pri:1, instance:listenerInTestng.TestClass@3738449f]" started-at="2024-09-14T13:27:03 IST" name="Test1" finished-at="2024-09-14T13:27:03 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test1 -->
-        <test-method signature="Test3()[pri:3, instance:listenerInTestng.TestClass@3738449f]" started-at="2024-09-14T12:59:17 IST" name="Test3" finished-at="2024-09-14T12:59:17 IST" duration-ms="216" status="FAIL">
+        <test-method signature="Test2()[pri:2, instance:listenerInTestng.TestClass@3738449f]" started-at="2024-09-14T13:27:03 IST" name="Test2" finished-at="2024-09-14T13:27:03 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method signature="Test3()[pri:3, instance:listenerInTestng.TestClass@3738449f]" started-at="2024-09-14T13:27:03 IST" name="Test3" finished-at="2024-09-14T13:27:04 IST" duration-ms="203" status="FAIL">
           <exception class="org.testng.internal.thread.ThreadTimeoutException">
             <message>
               <![CDATA[Method listenerInTestng.TestClass.Test3() didn't finish within the time-out 200]]>
@@ -56,7 +56,7 @@ at java.base@11.0.21/java.lang.Thread.run(Thread.java:834)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test3 -->
-        <test-method signature="Test4()[pri:4, instance:listenerInTestng.TestClass@3738449f]" started-at="2024-09-14T12:59:17 IST" name="Test4" finished-at="2024-09-14T12:59:17 IST" depends-on-methods="listenerInTestng.TestClass.Test3" duration-ms="0" status="SKIP">
+        <test-method signature="Test4()[pri:4, instance:listenerInTestng.TestClass@3738449f]" started-at="2024-09-14T13:27:04 IST" name="Test4" finished-at="2024-09-14T13:27:04 IST" depends-on-methods="listenerInTestng.TestClass.Test3" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
               <![CDATA[Method TestClass.Test4()[pri:4, instance:listenerInTestng.TestClass@3738449f] depends on not successfully finished methods]]>
@@ -95,53 +95,49 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
         </test-method> <!-- Test4 -->
       </class> <!-- listenerInTestng.TestClass -->
       <class name="testNGCode.NewTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testNGCode.NewTest@1ba9117e]" started-at="2024-09-14T12:57:57 IST" name="beforeSuite" finished-at="2024-09-14T12:57:57 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testNGCode.NewTest@1ba9117e]" started-at="2024-09-14T13:26:01 IST" name="beforeSuite" finished-at="2024-09-14T13:26:01 IST" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testNGCode.NewTest@1ba9117e]" started-at="2024-09-14T12:58:22 IST" name="beforeTest" finished-at="2024-09-14T12:58:22 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testNGCode.NewTest@1ba9117e]" started-at="2024-09-14T13:26:08 IST" name="beforeTest" finished-at="2024-09-14T13:26:08 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testNGCode.NewTest@1ba9117e]" started-at="2024-09-14T12:59:21 IST" name="beforeClass" finished-at="2024-09-14T12:59:21 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testNGCode.NewTest@1ba9117e]" started-at="2024-09-14T13:27:07 IST" name="beforeClass" finished-at="2024-09-14T13:27:07 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNGCode.NewTest@1ba9117e]" started-at="2024-09-14T12:59:21 IST" name="afterMethod" finished-at="2024-09-14T12:59:21 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNGCode.NewTest@1ba9117e]" started-at="2024-09-14T12:59:21 IST" name="beforeMethod" finished-at="2024-09-14T12:59:21 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNGCode.NewTest@1ba9117e]" started-at="2024-09-14T13:27:07 IST" name="beforeMethod" finished-at="2024-09-14T13:27:07 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:testNGCode.NewTest@1ba9117e]" started-at="2024-09-14T12:59:21 IST" name="afterClass" finished-at="2024-09-14T12:59:23 IST" duration-ms="2008" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method signature="f()[pri:0, instance:testNGCode.NewTest@1ba9117e]" started-at="2024-09-14T12:59:21 IST" name="f" finished-at="2024-09-14T12:59:21 IST" duration-ms="0" status="PASS">
+        <test-method signature="f()[pri:0, instance:testNGCode.NewTest@1ba9117e]" started-at="2024-09-14T13:27:07 IST" name="f" finished-at="2024-09-14T13:27:07 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:testNGCode.NewTest@1ba9117e]" started-at="2024-09-14T12:59:25 IST" name="afterTest" finished-at="2024-09-14T12:59:25 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNGCode.NewTest@1ba9117e]" started-at="2024-09-14T13:27:07 IST" name="afterMethod" finished-at="2024-09-14T13:27:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testNGCode.NewTest@1ba9117e]" started-at="2024-09-14T13:27:07 IST" name="afterClass" finished-at="2024-09-14T13:27:09 IST" duration-ms="2016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testNGCode.NewTest@1ba9117e]" started-at="2024-09-14T13:27:10 IST" name="afterTest" finished-at="2024-09-14T13:27:10 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testNGCode.NewTest@1ba9117e]" started-at="2024-09-14T12:59:25 IST" name="afterSuite" finished-at="2024-09-14T12:59:25 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testNGCode.NewTest@1ba9117e]" started-at="2024-09-14T13:27:10 IST" name="afterSuite" finished-at="2024-09-14T13:27:10 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- testNGCode.NewTest -->
       <class name="listenerInTestng.TestClass2">
-        <test-method signature="Test1()[pri:1, instance:listenerInTestng.TestClass2@69e1dd28]" started-at="2024-09-14T12:59:17 IST" name="Test1" finished-at="2024-09-14T12:59:17 IST" duration-ms="0" status="PASS">
+        <test-method signature="Test1()[pri:1, instance:listenerInTestng.TestClass2@69e1dd28]" started-at="2024-09-14T13:27:04 IST" name="Test1" finished-at="2024-09-14T13:27:04 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test1 -->
-        <test-method signature="Test2()[pri:2, instance:listenerInTestng.TestClass2@69e1dd28]" started-at="2024-09-14T12:59:17 IST" name="Test2" finished-at="2024-09-14T12:59:17 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test2 -->
-        <test-method signature="Test3()[pri:3, instance:listenerInTestng.TestClass2@69e1dd28]" started-at="2024-09-14T12:59:17 IST" name="Test3" finished-at="2024-09-14T12:59:17 IST" duration-ms="211" status="FAIL">
+        <test-method signature="Test3()[pri:3, instance:listenerInTestng.TestClass2@69e1dd28]" started-at="2024-09-14T13:27:04 IST" name="Test3" finished-at="2024-09-14T13:27:04 IST" duration-ms="217" status="FAIL">
           <exception class="org.testng.internal.thread.ThreadTimeoutException">
             <message>
               <![CDATA[Method listenerInTestng.TestClass2.Test3() didn't finish within the time-out 200]]>
@@ -168,7 +164,11 @@ at java.base@11.0.21/java.lang.Thread.run(Thread.java:834)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test3 -->
-        <test-method signature="Test4()[pri:4, instance:listenerInTestng.TestClass2@69e1dd28]" started-at="2024-09-14T12:59:17 IST" name="Test4" finished-at="2024-09-14T12:59:17 IST" depends-on-methods="listenerInTestng.TestClass2.Test3" duration-ms="0" status="SKIP">
+        <test-method signature="Test2()[pri:2, instance:listenerInTestng.TestClass2@69e1dd28]" started-at="2024-09-14T13:27:04 IST" name="Test2" finished-at="2024-09-14T13:27:04 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method signature="Test4()[pri:4, instance:listenerInTestng.TestClass2@69e1dd28]" started-at="2024-09-14T13:27:04 IST" name="Test4" finished-at="2024-09-14T13:27:04 IST" depends-on-methods="listenerInTestng.TestClass2.Test3" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
               <![CDATA[Method TestClass2.Test4()[pri:4, instance:listenerInTestng.TestClass2@69e1dd28] depends on not successfully finished methods]]>
@@ -207,39 +207,25 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
         </test-method> <!-- Test4 -->
       </class> <!-- listenerInTestng.TestClass2 -->
       <class name="enableDesableInTestng.Test1">
-        <test-method signature="TC002()[pri:0, instance:enableDesableInTestng.Test1@40cb8df7]" started-at="2024-09-14T12:58:51 IST" name="TC002" finished-at="2024-09-14T12:58:51 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC002 -->
-        <test-method signature="TC004()[pri:0, instance:enableDesableInTestng.Test1@40cb8df7]" started-at="2024-09-14T12:58:51 IST" name="TC004" finished-at="2024-09-14T12:58:51 IST" duration-ms="0" status="PASS">
+        <test-method signature="TC004()[pri:0, instance:enableDesableInTestng.Test1@40cb8df7]" started-at="2024-09-14T13:26:39 IST" name="TC004" finished-at="2024-09-14T13:26:39 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC004 -->
-        <test-method signature="TC001()[pri:0, instance:enableDesableInTestng.Test1@40cb8df7]" started-at="2024-09-14T12:58:51 IST" name="TC001" finished-at="2024-09-14T12:58:51 IST" duration-ms="0" status="PASS">
+        <test-method signature="TC001()[pri:0, instance:enableDesableInTestng.Test1@40cb8df7]" started-at="2024-09-14T13:26:39 IST" name="TC001" finished-at="2024-09-14T13:26:39 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC001 -->
-        <test-method signature="TC005()[pri:0, instance:enableDesableInTestng.Test1@40cb8df7]" started-at="2024-09-14T12:58:51 IST" name="TC005" finished-at="2024-09-14T12:58:51 IST" duration-ms="0" status="PASS">
+        <test-method signature="TC002()[pri:0, instance:enableDesableInTestng.Test1@40cb8df7]" started-at="2024-09-14T13:26:39 IST" name="TC002" finished-at="2024-09-14T13:26:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC002 -->
+        <test-method signature="TC005()[pri:0, instance:enableDesableInTestng.Test1@40cb8df7]" started-at="2024-09-14T13:26:39 IST" name="TC005" finished-at="2024-09-14T13:26:39 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC005 -->
       </class> <!-- enableDesableInTestng.Test1 -->
-      <class name="enableDesableInTestng.Test2">
-        <test-method signature="TC007()[pri:0, instance:enableDesableInTestng.Test2@13b13b5d]" started-at="2024-09-14T12:58:51 IST" name="TC007" finished-at="2024-09-14T12:58:51 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC007 -->
-        <test-method signature="TC009()[pri:0, instance:enableDesableInTestng.Test2@13b13b5d]" started-at="2024-09-14T12:58:51 IST" name="TC009" finished-at="2024-09-14T12:58:51 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC009 -->
-        <test-method signature="TC010()[pri:0, instance:enableDesableInTestng.Test2@13b13b5d]" started-at="2024-09-14T12:58:51 IST" name="TC010" finished-at="2024-09-14T12:58:51 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC010 -->
-      </class> <!-- enableDesableInTestng.Test2 -->
       <class name="dataProviderInTestng.TestFireDataUserWithExcel">
-        <test-method signature="Login(java.lang.String,java.lang.String)[pri:0, instance:dataProviderInTestng.TestFireDataUserWithExcel@e1de817]" started-at="2024-09-14T12:58:29 IST" name="Login" data-provider="dataProvider" finished-at="2024-09-14T12:58:34 IST" duration-ms="5178" status="PASS">
+        <test-method signature="Login(java.lang.String,java.lang.String)[pri:0, instance:dataProviderInTestng.TestFireDataUserWithExcel@e1de817]" started-at="2024-09-14T13:26:15 IST" name="Login" data-provider="dataProvider" finished-at="2024-09-14T13:26:20 IST" duration-ms="5521" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -255,7 +241,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method signature="Login(java.lang.String,java.lang.String)[pri:0, instance:dataProviderInTestng.TestFireDataUserWithExcel@e1de817]" started-at="2024-09-14T12:58:34 IST" name="Login" data-provider="dataProvider" finished-at="2024-09-14T12:58:40 IST" duration-ms="5743" status="PASS">
+        <test-method signature="Login(java.lang.String,java.lang.String)[pri:0, instance:dataProviderInTestng.TestFireDataUserWithExcel@e1de817]" started-at="2024-09-14T13:26:20 IST" name="Login" data-provider="dataProvider" finished-at="2024-09-14T13:26:27 IST" duration-ms="6871" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -271,7 +257,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method signature="Login(java.lang.String,java.lang.String)[pri:0, instance:dataProviderInTestng.TestFireDataUserWithExcel@e1de817]" started-at="2024-09-14T12:58:40 IST" name="Login" data-provider="dataProvider" finished-at="2024-09-14T12:58:45 IST" duration-ms="5564" status="PASS">
+        <test-method signature="Login(java.lang.String,java.lang.String)[pri:0, instance:dataProviderInTestng.TestFireDataUserWithExcel@e1de817]" started-at="2024-09-14T13:26:27 IST" name="Login" data-provider="dataProvider" finished-at="2024-09-14T13:26:33 IST" duration-ms="5977" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -287,7 +273,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method signature="Login(java.lang.String,java.lang.String)[pri:0, instance:dataProviderInTestng.TestFireDataUserWithExcel@e1de817]" started-at="2024-09-14T12:58:45 IST" name="Login" data-provider="dataProvider" finished-at="2024-09-14T12:58:51 IST" duration-ms="5640" status="PASS">
+        <test-method signature="Login(java.lang.String,java.lang.String)[pri:0, instance:dataProviderInTestng.TestFireDataUserWithExcel@e1de817]" started-at="2024-09-14T13:26:33 IST" name="Login" data-provider="dataProvider" finished-at="2024-09-14T13:26:39 IST" duration-ms="5668" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -304,32 +290,62 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           </reporter-output>
         </test-method> <!-- Login -->
       </class> <!-- dataProviderInTestng.TestFireDataUserWithExcel -->
+      <class name="enableDesableInTestng.Test2">
+        <test-method signature="TC007()[pri:0, instance:enableDesableInTestng.Test2@13b13b5d]" started-at="2024-09-14T13:26:39 IST" name="TC007" finished-at="2024-09-14T13:26:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC007 -->
+        <test-method signature="TC009()[pri:0, instance:enableDesableInTestng.Test2@13b13b5d]" started-at="2024-09-14T13:26:39 IST" name="TC009" finished-at="2024-09-14T13:26:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC009 -->
+        <test-method signature="TC010()[pri:0, instance:enableDesableInTestng.Test2@13b13b5d]" started-at="2024-09-14T13:26:39 IST" name="TC010" finished-at="2024-09-14T13:26:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC010 -->
+      </class> <!-- enableDesableInTestng.Test2 -->
       <class name="extentReport.ExtentReportTest">
-        <test-method signature="extentTest()[pri:0, instance:extentReport.ExtentReportTest@2892dae4]" started-at="2024-09-14T12:58:51 IST" name="extentTest" finished-at="2024-09-14T12:58:52 IST" duration-ms="733" status="PASS">
+        <test-method signature="extentTest()[pri:0, instance:extentReport.ExtentReportTest@2892dae4]" started-at="2024-09-14T13:26:39 IST" name="extentTest" finished-at="2024-09-14T13:26:40 IST" duration-ms="836" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extentTest -->
       </class> <!-- extentReport.ExtentReportTest -->
       <class name="ignoreInTestng.ScenarioTest">
-        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:ignoreInTestng.ScenarioTest@e7edb54]" started-at="2024-09-14T12:58:21 IST" name="browserLaunch" finished-at="2024-09-14T12:58:22 IST" duration-ms="888" status="PASS">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:ignoreInTestng.ScenarioTest@e7edb54]" started-at="2024-09-14T13:26:06 IST" name="browserLaunch" finished-at="2024-09-14T13:26:07 IST" duration-ms="640" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunch -->
-        <test-method signature="frame()[pri:0, instance:ignoreInTestng.ScenarioTest@e7edb54]" started-at="2024-09-14T12:58:52 IST" name="frame" finished-at="2024-09-14T12:59:06 IST" duration-ms="14238" status="PASS">
+        <test-method signature="frame()[pri:0, instance:ignoreInTestng.ScenarioTest@e7edb54]" started-at="2024-09-14T13:26:40 IST" name="frame" finished-at="2024-09-14T13:26:55 IST" duration-ms="15631" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- frame -->
-        <test-method signature="scroll()[pri:0, instance:ignoreInTestng.ScenarioTest@e7edb54]" started-at="2024-09-14T12:59:06 IST" name="scroll" finished-at="2024-09-14T12:59:09 IST" duration-ms="3564" status="PASS">
+        <test-method signature="scroll()[pri:0, instance:ignoreInTestng.ScenarioTest@e7edb54]" started-at="2024-09-14T13:26:55 IST" name="scroll" finished-at="2024-09-14T13:26:57 IST" duration-ms="2195" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scroll -->
-        <test-method signature="windowhandle()[pri:0, instance:ignoreInTestng.ScenarioTest@e7edb54]" started-at="2024-09-14T12:59:09 IST" name="windowhandle" finished-at="2024-09-14T12:59:17 IST" duration-ms="7419" status="PASS">
+        <test-method signature="windowhandle()[pri:0, instance:ignoreInTestng.ScenarioTest@e7edb54]" started-at="2024-09-14T13:26:57 IST" name="windowhandle" finished-at="2024-09-14T13:27:03 IST" duration-ms="6047" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- windowhandle -->
       </class> <!-- ignoreInTestng.ScenarioTest -->
       <class name="dataProviderInTestng.TestFireDataUser">
-        <test-method signature="Login(java.lang.String,java.lang.String)[pri:0, instance:dataProviderInTestng.TestFireDataUser@5939a379]" started-at="2024-09-14T12:58:22 IST" name="Login" data-provider="Provider" finished-at="2024-09-14T12:58:28 IST" duration-ms="5708" status="FAIL">
+        <test-method signature="Login(java.lang.String,java.lang.String)[pri:0, instance:dataProviderInTestng.TestFireDataUser@5939a379]" started-at="2024-09-14T13:26:08 IST" name="Login" data-provider="Provider" finished-at="2024-09-14T13:26:14 IST" duration-ms="6098" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jsmith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demo1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="Login(java.lang.String,java.lang.String)[pri:0, instance:dataProviderInTestng.TestFireDataUser@5939a379]" started-at="2024-09-14T13:26:08 IST" name="Login" data-provider="Provider" finished-at="2024-09-14T13:26:13 IST" duration-ms="5290" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -350,9 +366,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.22.0', revision: 'c5f3146703*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.21'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0354915c2ca2bf97503448252d8adbb5, findElement {using=xpath, value=//font[text()='Sign Off']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58651}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58651/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0354915c2ca2bf97503448252d8adbb5]]>
+Command: [769fe0d0f70e687787cc1617d76955b4, findElement {value=//font[text()='Sign Off'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59806}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59806/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 769fe0d0f70e687787cc1617d76955b4]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//font[text()='Sign Off']"}
@@ -361,9 +377,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.22.0', revision: 'c5f3146703*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.21'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0354915c2ca2bf97503448252d8adbb5, findElement {using=xpath, value=//font[text()='Sign Off']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58651}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58651/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0354915c2ca2bf97503448252d8adbb5
+Command: [769fe0d0f70e687787cc1617d76955b4, findElement {value=//font[text()='Sign Off'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59806}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59806/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 769fe0d0f70e687787cc1617d76955b4
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -401,23 +417,7 @@ at java.base/java.lang.Thread.run(Thread.java:834)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method signature="Login(java.lang.String,java.lang.String)[pri:0, instance:dataProviderInTestng.TestFireDataUser@5939a379]" started-at="2024-09-14T12:58:22 IST" name="Login" data-provider="Provider" finished-at="2024-09-14T12:58:28 IST" duration-ms="5601" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[jsmith]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[demo1234]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method signature="Login(java.lang.String,java.lang.String)[pri:0, instance:dataProviderInTestng.TestFireDataUser@5939a379]" started-at="2024-09-14T12:58:22 IST" name="Login" data-provider="Provider" finished-at="2024-09-14T12:58:28 IST" duration-ms="5716" status="FAIL">
+        <test-method signature="Login(java.lang.String,java.lang.String)[pri:0, instance:dataProviderInTestng.TestFireDataUser@5939a379]" started-at="2024-09-14T13:26:08 IST" name="Login" data-provider="Provider" finished-at="2024-09-14T13:26:14 IST" duration-ms="5886" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -438,9 +438,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.22.0', revision: 'c5f3146703*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.21'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6935ccb5d68c7b23d7fe03dfdd387ea9, findElement {using=xpath, value=//font[text()='Sign Off']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58652}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58652/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6935ccb5d68c7b23d7fe03dfdd387ea9]]>
+Command: [cf4d3d5ebb53427f08fdffde62906c3d, findElement {value=//font[text()='Sign Off'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59805}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59805/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cf4d3d5ebb53427f08fdffde62906c3d]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//font[text()='Sign Off']"}
@@ -449,9 +449,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.22.0', revision: 'c5f3146703*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.21'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6935ccb5d68c7b23d7fe03dfdd387ea9, findElement {using=xpath, value=//font[text()='Sign Off']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58652}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58652/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6935ccb5d68c7b23d7fe03dfdd387ea9
+Command: [cf4d3d5ebb53427f08fdffde62906c3d, findElement {value=//font[text()='Sign Off'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59805}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59805/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cf4d3d5ebb53427f08fdffde62906c3d
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -491,25 +491,25 @@ at java.base/java.lang.Thread.run(Thread.java:834)
         </test-method> <!-- Login -->
       </class> <!-- dataProviderInTestng.TestFireDataUser -->
       <class name="testClass.LoginTest">
-        <test-method is-config="true" signature="BaseClass1()[pri:0, instance:testClass.LoginTest@11bd0f3b]" started-at="2024-09-14T12:57:57 IST" name="BaseClass1" finished-at="2024-09-14T12:58:21 IST" duration-ms="23841" status="PASS">
+        <test-method is-config="true" signature="BaseClass1()[pri:0, instance:testClass.LoginTest@11bd0f3b]" started-at="2024-09-14T13:26:01 IST" name="BaseClass1" finished-at="2024-09-14T13:26:06 IST" duration-ms="5042" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BaseClass1 -->
-        <test-method signature="loginPageTest()[pri:0, instance:testClass.LoginTest@11bd0f3b]" started-at="2024-09-14T12:59:17 IST" name="loginPageTest" finished-at="2024-09-14T12:59:18 IST" duration-ms="977" status="PASS">
+        <test-method signature="loginPageTest()[pri:0, instance:testClass.LoginTest@11bd0f3b]" started-at="2024-09-14T13:27:04 IST" name="loginPageTest" finished-at="2024-09-14T13:27:05 IST" duration-ms="1165" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testClass.LoginTest@11bd0f3b]" started-at="2024-09-14T12:59:23 IST" name="tearDown" finished-at="2024-09-14T12:59:23 IST" duration-ms="85" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testClass.LoginTest@11bd0f3b]" started-at="2024-09-14T13:27:09 IST" name="tearDown" finished-at="2024-09-14T13:27:10 IST" duration-ms="107" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testClass.LoginTest -->
       <class name="dependencyInTestng.ShipmentTest">
-        <test-method signature="createShipment()[pri:0, instance:dependencyInTestng.ShipmentTest@2177849e]" started-at="2024-09-14T12:58:51 IST" name="createShipment" finished-at="2024-09-14T12:58:51 IST" duration-ms="0" status="PASS">
+        <test-method signature="createShipment()[pri:0, instance:dependencyInTestng.ShipmentTest@2177849e]" started-at="2024-09-14T13:26:39 IST" name="createShipment" finished-at="2024-09-14T13:26:39 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createShipment -->
-        <test-method signature="trackShipment()[pri:0, instance:dependencyInTestng.ShipmentTest@2177849e]" started-at="2024-09-14T12:58:51 IST" name="trackShipment" finished-at="2024-09-14T12:58:51 IST" depends-on-methods="dependencyInTestng.ShipmentTest.createShipment" duration-ms="0" status="FAIL">
+        <test-method signature="trackShipment()[pri:0, instance:dependencyInTestng.ShipmentTest@2177849e]" started-at="2024-09-14T13:26:39 IST" name="trackShipment" finished-at="2024-09-14T13:26:39 IST" depends-on-methods="dependencyInTestng.ShipmentTest.createShipment" duration-ms="0" status="FAIL">
           <exception class="java.lang.ArithmeticException">
             <message>
               <![CDATA[/ by zero]]>
@@ -556,7 +556,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- trackShipment -->
-        <test-method signature="cancelShipment()[pri:0, instance:dependencyInTestng.ShipmentTest@2177849e]" started-at="2024-09-14T12:58:51 IST" name="cancelShipment" finished-at="2024-09-14T12:58:51 IST" depends-on-methods="dependencyInTestng.ShipmentTest.trackShipment" duration-ms="0" status="SKIP">
+        <test-method signature="cancelShipment()[pri:0, instance:dependencyInTestng.ShipmentTest@2177849e]" started-at="2024-09-14T13:26:39 IST" name="cancelShipment" finished-at="2024-09-14T13:26:39 IST" depends-on-methods="dependencyInTestng.ShipmentTest.trackShipment" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
               <![CDATA[Method ShipmentTest.cancelShipment()[pri:0, instance:dependencyInTestng.ShipmentTest@2177849e] depends on not successfully finished methods]]>
@@ -595,22 +595,14 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
         </test-method> <!-- cancelShipment -->
       </class> <!-- dependencyInTestng.ShipmentTest -->
       <class name="testNGCode.DemoTest">
-        <test-method is-config="true" signature="init()[pri:0, instance:testNGCode.DemoTest@29e495ff]" started-at="2024-09-14T12:58:22 IST" name="init" finished-at="2024-09-14T12:58:22 IST" duration-ms="668" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:testNGCode.DemoTest@29e495ff]" started-at="2024-09-14T13:26:07 IST" name="init" finished-at="2024-09-14T13:26:08 IST" duration-ms="689" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="login()[pri:0, instance:testNGCode.DemoTest@29e495ff]" started-at="2024-09-14T12:59:18 IST" name="login" finished-at="2024-09-14T12:59:21 IST" duration-ms="2452" status="PASS">
+        <test-method signature="login()[pri:0, instance:testNGCode.DemoTest@29e495ff]" started-at="2024-09-14T13:27:05 IST" name="login" finished-at="2024-09-14T13:27:07 IST" duration-ms="2471" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="verifyLogin()[pri:0, instance:testNGCode.DemoTest@29e495ff]" started-at="2024-09-14T12:59:21 IST" name="verifyLogin" finished-at="2024-09-14T12:59:21 IST" duration-ms="29" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testNGCode.DemoTest@29e495ff]" started-at="2024-09-14T12:59:23 IST" name="teardown" finished-at="2024-09-14T12:59:25 IST" duration-ms="2104" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
       </class> <!-- testNGCode.DemoTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
