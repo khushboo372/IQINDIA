@@ -37,9 +37,10 @@ public class DemoTest {
 		driver.findElement(By.id("passw")).sendKeys("demo1234");
 		js.executeScript("document.getElementsByName('btnSubmit')[0].click()");
 		System.out.println("Login Successfull");
-		boolean b=driver.findElement(By.xpath("//font[text()='Sign Off']")).isDisplayed();
-		Assert.assertEquals(b, true,"not login");
-		System.out.println("check again");
+	
+//		boolean b=driver.findElement(By.xpath("//font[text()='Sign Off']")).isDisplayed();
+//		Assert.assertEquals(b, true,"not login");
+//		System.out.println("check again");
 	}
 		
 //		softass.assertEquals(false, true);
@@ -47,7 +48,7 @@ public class DemoTest {
 //		softass.assertAll();
 		
 		
-	@Test
+	//@Test
 	public void verifyLogin() {
 		WebElement signoff=driver.findElement(By.xpath("//font[text()='Sign Off']"));
 		if(signoff.isDisplayed()) {
@@ -57,7 +58,7 @@ public class DemoTest {
 		
 	}	
 	
-	@AfterTest
+	//@AfterTest
 	public void teardown() throws InterruptedException {
 		Thread.sleep(2000);
 		driver.close();

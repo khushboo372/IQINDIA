@@ -15,7 +15,7 @@ import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 @Listeners(ITestListenerClass2ForScreenshotAndExtentReport.class)
-public class ScreenshotInExtentReport extends BaseClassListener {
+public class ScreenshotInExtentReport  {
 	public static WebDriver driver;
 	public static JavascriptExecutor js;
 	

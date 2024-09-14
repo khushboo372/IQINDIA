@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="dependencyInTestng.ShipmentTest">
+        <methods>
+          <include name="trackShipment"/>
+          <include name="createShipment"/>
+          <include name="cancelShipment"/>
+        </methods>
+      </class> <!-- dependencyInTestng.ShipmentTest -->
+      <class name="listenerInTestng.TestClass2">
+        <methods>
+          <include name="Test3"/>
+          <include name="Test4"/>
+        </methods>
+      </class> <!-- listenerInTestng.TestClass2 -->
+      <class name="dataProviderInTestng.TestFireDataUser">
+        <methods>
+          <include name="Login" invocation-numbers="3 5"/>
+        </methods>
+      </class> <!-- dataProviderInTestng.TestFireDataUser -->
+      <class name="listenerInTestng.TestClass">
+        <methods>
+          <include name="Test3"/>
+          <include name="Test4"/>
+        </methods>
+      </class> <!-- listenerInTestng.TestClass -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

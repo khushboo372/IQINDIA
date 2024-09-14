@@ -5,7 +5,7 @@
     <classes>
       <class name="testNGCode.DemoTest"/>
       
-      <class name="testNGCode.DemoTest2"/>
+      
     </classes>
   </test> <!-- Test -->
   

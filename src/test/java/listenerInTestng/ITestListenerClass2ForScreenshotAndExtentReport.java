@@ -17,7 +17,7 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class ITestListenerClass2ForScreenshotAndExtentReport extends BaseClassListener implements ITestListener {
+public class ITestListenerClass2ForScreenshotAndExtentReport  extends ScreenshotInExtentReport implements ITestListener  {
 
 	public void onTestStart(ITestResult result) {
 		System.out.println("on test start");
@@ -29,14 +29,23 @@ public class ITestListenerClass2ForScreenshotAndExtentReport extends BaseClassLi
 
 	public void onTestFailure(ITestResult result) {
 		System.out.println("on test failure");
-		WebDriverManager.chromedriver().setup();
-		driver=new ChromeDriver();
+		
 
 		ExtentReports extentReports = new ExtentReports();
 		ExtentSparkReporter sparkReporter = new ExtentSparkReporter(
 				"D:\\Khushboo\\Java\\javaeclipse\\Custom\\TestExtentReport\\reportlistener.html");
 
 		extentReports.attachReporter(sparkReporter);
+		
+		//WebDriver driver=null;
+
+//		//to call instance of driver
+//		try {
+//			driver = (WebDriver)result.getTestClass().getRealClass().getDeclaredField("driver").get(result.getInstance());
+//		} catch (IllegalArgumentException | IllegalAccessException | NoSuchFieldException | SecurityException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
 
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		LocalDateTime lt = LocalDateTime.now();

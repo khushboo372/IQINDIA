@@ -1,11 +1,14 @@
 package pageClass;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import base.BaseClass;
+
+import base.BaseClass2;
 
 public class LoginPage2 extends BaseClass2 {
 	
-	
+	public LoginPage2()  throws Exception {
+		
+	}
 	
 	WebElement uname=driver.findElement(By.id("uid"));
 	WebElement pwd=driver.findElement(By.id("passw"));

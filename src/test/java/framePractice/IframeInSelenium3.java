@@ -35,7 +35,8 @@ public class IframeInSelenium3 {
 		System.out.print(str);
 		Select sl2=new Select(we1);
 		sl2.selectByVisibleText("- Dot Net");
-		
+		driver.switchTo().frame("oauth2relay783696453");
+		Thread.sleep(3000);
 		
 		
 		

@@ -26,6 +26,7 @@ public class BaseClass2 {
 	    }
 	    FileInputStream fis=new FileInputStream(f);
 	    prop.load(fis);
+	    System.out.println(prop.getProperty("browser"));
 	}
 	
 //	@BeforeTest

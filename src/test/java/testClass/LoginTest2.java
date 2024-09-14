@@ -3,16 +3,16 @@ package testClass;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-
-import base.BaseClass;
+import base.BaseClass2;
 import io.github.bonigarcia.wdm.WebDriverManager;
-import pageClass.LoginPage;
+import pageClass.LoginPage2;
 
 public class LoginTest2 extends BaseClass2 {
 	
-	public static LoginPage2 lpe;
+	 LoginPage2 lpe;
 	
 	public LoginTest2() throws Exception {
+		
 		WebDriverManager.chromedriver().setup();
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
@@ -20,6 +20,8 @@ public class LoginTest2 extends BaseClass2 {
 		String pageurl=prop.getProperty("url");
 		
 		driver.get(pageurl);
+		Thread.sleep(2000);
+		lpe=new LoginPage2();
 	}
 		
 	
