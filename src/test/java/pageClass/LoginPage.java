@@ -10,11 +10,13 @@ public class LoginPage extends BaseClass {
 	WebElement login=driver.findElement(By.name("btnSubmit"));
 	
 	public void enterUsername(String user) {
+		//send key
 		uname.sendKeys(user);
 		
 	}
 	
 	public void enterPassword(String password) {
+		//send password
 		pwd.sendKeys(password);
 	}
 	
