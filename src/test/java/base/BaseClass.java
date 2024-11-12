@@ -9,7 +9,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseClass {
 	public static WebDriver driver;  //why public static
-	
+	//new commit
 	@BeforeTest
 	public void BaseClass1() throws InterruptedException {
 		WebDriverManager.chromedriver().setup();
